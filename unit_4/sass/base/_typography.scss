@@ -1,0 +1,90 @@
+body {
+	font-family: "Montserrat", sans-serif;
+	font-weight: 400;
+	/* font-size: 16px; */
+	line-height: 2;
+	color: $color-black;
+	box-sizing: border-box;
+}
+
+.heading-primary {
+	color: $color-white;
+	text-transform: uppercase;
+    backface-visibility: hidden;
+    
+    &--main {
+        display: block;
+        font-size: 6rem;
+        font-weight: 400;
+        letter-spacing: 2.5rem;
+    }
+
+    &--sub {
+        display: block;
+        font-size: 2rem;
+        font-weight: 400;
+        letter-spacing: 1.75rem;
+        margin-bottom: 6rem;
+    }
+}
+
+.heading-secondary {
+    color: $color-black;
+	text-transform: uppercase;
+    backface-visibility: hidden;
+
+    &--main {
+        display: block;
+        font-size: 4rem;
+        font-weight: 400;
+        letter-spacing: .5rem;
+        margin-bottom: 3rem;
+
+        &-white {
+            display: block;
+            font-size: 4rem;
+            font-weight: 400;
+            letter-spacing: .5rem;
+            margin-bottom: 3rem;
+            color: $color-white;
+        }
+    }
+
+    &--sub {
+        display: block;
+        font-size: 1.5rem;
+        font-weight: 700;
+        letter-spacing: .75rem;
+
+        &-white {
+            color: $color-white;
+        }
+    }
+
+    &--bg-difference {
+        color: $color-white;
+        mix-blend-mode: difference;
+    }
+}
+
+.heading-tertiary {
+    font-size: $default-font-size;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.paragraph {
+    font-family: "Open Sans", sans-serif;
+    font-weight: 300;
+    font-size: $default-font-size;
+    
+    &:not(:last-child) {
+        margin-bottom: 3rem;
+    }
+
+    &--bg-difference {
+        color: $color-white;
+        mix-blend-mode: difference;
+    }
+
+}

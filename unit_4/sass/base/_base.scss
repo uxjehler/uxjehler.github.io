@@ -1,0 +1,22 @@
+* 
+*::before
+*::after  {
+	margin: 0px;
+	padding: 0px;
+	box-sizing: inherit;
+}
+
+::selection {
+
+	background: $eastern-blue-light;
+	color: $color-white;
+
+}
+
+html {
+	font-size: 62.5%;
+}
+
+section {
+	padding: 8rem;
+}
